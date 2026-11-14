@@ -1,7 +1,3 @@
-// ===============================
-// TYPED.JS ANIMATION
-// ===============================
-
 const typed = new Typed(".text", {
     strings: [
         "Software Developer",
@@ -15,15 +11,9 @@ const typed = new Typed(".text", {
     loop: true
 });
 
-
-// ===============================
-// MOBILE MENU
-// ===============================
-
 const menuBtn = document.getElementById("menu-btn");
 const navbar = document.getElementById("navbar");
 const menuIcon = menuBtn.querySelector("i");
-
 
 menuBtn.addEventListener("click", () => {
 
@@ -36,9 +26,6 @@ menuBtn.addEventListener("click", () => {
     }
 
 });
-
-
-// Close mobile menu after clicking a link
 
 document.querySelectorAll(".navbar a").forEach(link => {
 
@@ -53,11 +40,6 @@ document.querySelectorAll(".navbar a").forEach(link => {
     });
 
 });
-
-
-// ===============================
-// ACTIVE NAVIGATION ON SCROLL
-// ===============================
 
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".navbar a");
@@ -81,7 +63,6 @@ window.addEventListener("scroll", () => {
 
     });
 
-
     navLinks.forEach(link => {
 
         link.classList.remove("active");
@@ -93,11 +74,6 @@ window.addEventListener("scroll", () => {
     });
 
 });
-
-
-// ===============================
-// BACK TO TOP BUTTON
-// ===============================
 
 const topButton = document.getElementById("top-btn");
 
@@ -111,11 +87,6 @@ window.addEventListener("scroll", () => {
     }
 
 });
-
-
-// ===============================
-// CONTACT FORM DEMO
-// ===============================
 
 const contactForm = document.getElementById("contact-form");
 
