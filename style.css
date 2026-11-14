@@ -1,14 +1,4 @@
-/* ===============================
-   GOOGLE FONT
-================================ */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
-
-/* ===============================
-   GLOBAL STYLES
-================================ */
-
 :root {
     --bg-color: #081b29;
     --bg-secondary: #0c2435;
@@ -57,11 +47,6 @@ img {
 .section-padding {
     padding: 100px 10%;
 }
-
-
-/* ===============================
-   HEADER
-================================ */
 
 .header {
     position: fixed;
@@ -146,11 +131,6 @@ img {
     color: var(--main-color);
 }
 
-
-/* ===============================
-   BUTTON
-================================ */
-
 .btn {
     display: inline-flex;
     align-items: center;
@@ -179,11 +159,6 @@ img {
     transform: translateY(-3px);
     box-shadow: 0 0 30px rgba(0, 238, 255, 0.45);
 }
-
-
-/* ===============================
-   HOME
-================================ */
 
 .home {
     min-height: 100vh;
@@ -320,11 +295,6 @@ img {
     background: var(--bg-secondary);
 }
 
-
-/* ===============================
-   SECTION HEADING
-================================ */
-
 .section-heading {
     text-align: center;
     max-width: 700px;
@@ -362,11 +332,6 @@ img {
     color: var(--muted-text);
     line-height: 1.7;
 }
-
-
-/* ===============================
-   ABOUT
-================================ */
 
 .about {
     display: grid;
@@ -424,11 +389,6 @@ img {
     margin-top: 10px;
 }
 
-
-/* ===============================
-   SERVICES
-================================ */
-
 .services-list {
     display: grid;
 
@@ -477,11 +437,6 @@ img {
     font-size: 14px;
     line-height: 1.7;
 }
-
-
-/* ===============================
-   SKILLS
-================================ */
 
 .skills {
     background: var(--bg-secondary);
@@ -586,11 +541,6 @@ img {
     font-size: 13px;
     font-weight: 500;
 }
-
-
-/* ===============================
-   PROJECTS
-================================ */
 
 .projects-grid {
     display: grid;
@@ -716,11 +666,6 @@ img {
     transform: rotate(45deg);
 }
 
-
-/* ===============================
-   CONTACT
-================================ */
-
 .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -837,11 +782,6 @@ img {
     align-self: flex-start;
 }
 
-
-/* ===============================
-   FOOTER
-================================ */
-
 .footer {
     padding: 25px 10%;
 
@@ -855,9 +795,6 @@ img {
 }
 
 
-/* ===============================
-   BACK TO TOP
-================================ */
 
 .top {
     position: fixed;
@@ -902,11 +839,6 @@ img {
     box-shadow: 0 0 20px var(--main-color);
 }
 
-
-/* ===============================
-   RESPONSIVE - TABLET
-================================ */
-
 @media (max-width: 992px) {
 
     .header {
@@ -931,11 +863,6 @@ img {
     }
 
 }
-
-
-/* ===============================
-   RESPONSIVE - MOBILE NAVIGATION
-================================ */
 
 @media (max-width: 768px) {
 
@@ -1057,11 +984,6 @@ img {
     }
 
 }
-
-
-/* ===============================
-   RESPONSIVE - SMALL MOBILE
-================================ */
 
 @media (max-width: 480px) {
 
